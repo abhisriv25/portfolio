@@ -1235,6 +1235,22 @@ section {
     font-size: 0.8rem;
     font-weight: 500;
 }
+.cert-link {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.cert-link:hover {
+    background: var(--secondary-color);
+}
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
